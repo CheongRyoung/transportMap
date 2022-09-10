@@ -14,4 +14,9 @@ public class MyView extends MapView {
     public boolean canScrollHorizontally(int direction) {
         return true;
     }
+
+    @Override
+    public void setCurrentLocationTrackingMode(CurrentLocationTrackingMode trackingMode) {
+        super.setCurrentLocationTrackingMode(trackingMode);
+    }
 }
